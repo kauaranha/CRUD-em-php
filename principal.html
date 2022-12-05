@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="" href="bootstrap/css/bootstrap.css" media="screen" />
+    <style>
+        body{
+          background-image: url("https://www.wallpapertip.com/wmimgs/20-200549_minimalist-desktop-wallpaper-hd.jpg");
+          padding: 20px;
+        }
+        nav{
+          background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          border-radius: 10%;
+          align-items: center;
+        }
+        img {
+            height: 250px;
+        }
+        .coluna{
+         float: left;
+         width: 33.33%;
+        }
+         .row::after {
+         content: "";
+         clear: both;
+         
+        }
+        .espaço{
+        display: flex; /* or inline-flex */
+        justify-content: space-evenly;
+        }
+        .espaço2{
+        display: flex; /* or inline-flex */
+        justify-content: space-evenly;
+        }
+        legend{
+            color: black;
+        }
+        legend:hover{
+          color: white;
+        }
+        *{
+            color: white;
+        }
+        
+        
+        h2{
+          color: white;
+          font-style: italic;
+          font-weight: bold;
+        }
+        
+        .navbar-brand{
+          color: white;
+        }
+        .li{
+          justify-content: space-between;
+        }
+        .txtarea{
+          color: #000851;
+        }
+        .form-floating{
+          align-items: center;
+        }
+        .btn1{
+          margin: 0 15px;
+          border-color: black;
+        }
+        
+        
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Seja Bem Vindo</a>
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+           
+            
+            </ul>
+            <form class="btn1" role="search">
+              <a href="login.html" type="submit">Login</button>
+            </form>
+            <br>
+            <form class="btn1" role="search">
+                
+                <a href="criarConta.html" type="submit">Registra-se</button>
+              </form>
+          </div>
+        </div>
+      </nav>
+      <marquee>
+      <legend> Produtos Disponiveis </legend>
+    </marquee>
+      <br>
+      <fieldset>
+      <div class="espaço">
+      <div class="coluna" style="width: 23rem;">
+        <img src="imagens/agua.jpg" style="width:100%" class="card-img-top" alt="..."> <br>
+        <div class="card-body">
+          <h5 class="card-title">Agua Mineral</h5>
+          
+        </div>
+      </div>
+      
+      <div class="coluna" style="width: 23rem;">
+        <img src="imagens/coca.jpg" style="width:100%" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Coca Cola</h5>
+        </div>
+    </div>
+          
+  <div class="coluna" style="width: 23rem;">
+    <img src="imagens/becks.jpg" style="width:100%" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">Agua Mineral</h5>
+     </div>
+      </div>
+       <div class="coluna" style="width: 23rem;">
+      <img src="imagens/corona.jpg" style="width:100%" class="card-img-top" alt="...">
+      <div class="card-body">
+   <h5 class="card-title">Corona</h5>
+   </div>
+   </div>
+      <div class="coluna" style="width: 23rem;">
+      <img src="imagens/guarana.jpg" style="width:100%" class="card-img-top" alt="...">
+      <div class="card-body">
+     <h5 class="card-title">guarana</h5>
+</div>
+</div>
+      </div>
+      <br>
+      <div class="espaço2">
+<div class="coluna" style="width: 23rem;">
+    <img src="imagens/monster.jpg" style="width:100%" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Monster</h5>
+</div>
+</div>
+<br>
+<div class="coluna" style="width: 23rem;">
+    <img src="imagens/suco.jpg" style="width:100%" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Suco</h5>
+</div>
+</div>
+<div class="coluna" style="width: 23rem;">
+    <img src="imagens/tubaina.jpg" style="width:100%" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Refrigerante Tubaina</h5>
+</div>
+</div>
+<div class="coluna" style="width: 23rem;">
+    <img src="imagens/fanta.jpg" style="width:100%" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Refrigerante Fanta</h5>
+</div>
+</div>
+<div class="coluna" style="width: 23rem;">
+    <img src="imagens/jesus.jpg" style="width:100%" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Refrigerante jesus</h5>
+      
+</div>
+</div>
+</div>
+</fieldset>
+</body>
+
+</html>

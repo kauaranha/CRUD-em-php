@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(90deg, rgba(26,110,59,1) 0%, rgba(42,125,59,1) 52%, rgba(111,138,114,1) 100%);
+}
+
+.container-login{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 20px;
+    color: white;
+}
+
+input{
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    width: 240px;
+    font-size: 15px;
+    outline: none;
+    
+}
+
+button{
+    background-color: #4a8f58;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+}
+
+a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 12px;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+    background-color: #4a8f58;
+}
+

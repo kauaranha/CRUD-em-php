@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginCSS.css">
+    <title>Login</title>
+    <style>
+        
+    
+        h1:hover{
+         background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+        }
+        body{
+            background-image: url("https://cdn.wallpapersafari.com/38/91/v1K8M6.jpg");
+         }
+        a:hover{
+            background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+        }
+        marquee{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-login">
+        <form action="autentica.php" method="post">
+            <marquee>
+                Seja Bem Vindo a Tela De Login
+            </marquee>
+            <h1>Login</h1>
+
+            <input type="text" name="usuario" id="usuario" placeholder="Email">
+            <br><br>
+            <input type="password" name="senha" id="senha" placeholder="Senha">
+            <br><br>
+            <button href="Form_Incluir.html" type="submit"> Login</button>
+            <br><br>
+
+            <a href="criarConta.html"> Não possui conta? Crie agora </a>
+
+        </form>
+    </div>
+
+</body>
+</html>

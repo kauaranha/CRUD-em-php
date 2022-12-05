@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginCSS.css">
+    <title>Criar Conta</title>
+    <style>
+        body{
+            background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+            background-image: url("https://images.hdqwalls.com/download/auroral-forest-4k-illustration-h0-1600x900.jpg");
+        }
+        h1:hover{
+            background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+        }
+        a:hover{
+            background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+        }
+        marquee{
+            color: #00d2ff;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="container-login">
+        <form action="incluirUsuarioPHP.php" method="post">
+            <marquee>
+                Seja Bem Vindo a Tela De Cadastro
+            </marquee>
+            <h1>Criar Conta</h1>
+
+            <input name="usuario" type="text" placeholder="Email">
+            <br><br>
+            <input name="senha" type="password" placeholder="Senha">
+            <br><br>
+            <button type="submit">Criar</button>
+            <br><br>
+
+            <a href="login.html"> Ja possui conta? Faça login </a>
+            <a href="principal.html"> Menu principal </a>
+
+        </form>
+    </div>
+
+</body>
+</html>

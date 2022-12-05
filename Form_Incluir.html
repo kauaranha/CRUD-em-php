@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="produtoCSS.css">
+    <title>Document</title>
+    <style> 
+    body{
+        background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    }
+    
+    </style>
+</head>
+<body>
+    
+  <div class="container-login">
+    <form action="incluirProduto.php" method="post">
+        <h1>Adicionar Produto</h1>
+
+        <input name="codigo" type="text" placeholder="Codigo">
+        <br><br>
+
+        <input name="produto" type="text" placeholder="Produto">
+        <br><br>
+
+        <input name="descricao" type="text" placeholder="Descrição">
+        <br><br>
+
+        <input name="data" type="date" placeholder="Data">
+        <br><br>
+
+        <input name="valor" type="text" placeholder="Valor">
+        <br><br>
+
+        <input name="imagem" type="file" placeholder="Email">
+        <br><br>
+
+        <button type="submit">Adicionar</button>
+        <br><br>
+        <a href="consulta.php"> Consultar Produtos</a>
+        <br><br>
+
+    </form>
+</div>
+
+</body>
+</html>
